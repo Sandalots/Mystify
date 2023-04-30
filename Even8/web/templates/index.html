@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- HTML -->
+<html lang="en">
+<!-- HEAD -->
+<head>
+    <!-- Meta data -->
+    <meta charset="UTF-8">
+    <title>Mystify Web Interface</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- custom css-->
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/main.css') }}">
+    <!-- Use W3 schools css -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<!-- BODY -->
+<body>
+    <!-- Define class to encapsulate intro text content-->
+    <header>
+        <div class="intro">
+        <!-- Introductionary Text-->
+        <h1>Welcome to Mystify Web Interface</h1>
+        <p>Mystify by Even 8</p>
+        <p>Version: 1.0</p><br>
+        <!-- Flask gets current result and outputs it-->
+        <h3 style='color: #FF7200;'> Mystify generated the {{type}}: {{ result }} </h3><br>
+        <!--Encryption form -->
+        <form action="/encrypt" method="POST">
+            <!-- Get password-->
+            <input type="text" name="password" placeholder="Enter Password" required>
+            <!-- Submit button-->
+            <input type="submit" value="Encrypt">
+            <input type="button" value="Generate Seed" onclick="window.location.reload()">
+        </form><br>
+        </div>
+    </header>
+    <main>
+        <table id="demo">
+            <!-- Header row-->
+            <tr>
+                <!-- For each column in the header-->
+                {% for col in header %}
+                <!-- Make a table header for each column-->
+                <th>{{ col }}</th>
+                <!-- End for loop-->
+                {% endfor %}
+            </tr>
+
+            <!-- Data rows-->
+            <!-- For each row -->
+            {% for row in rows %}
+            <tr>
+                <!-- For each column in row-->
+                {% for col in row %}
+                <!-- Make a table data entity out of that column-->
+                <td>{{ col }}</td>
+                <!-- End for loop of columns-->
+                {% endfor %}
+            </tr>
+            <!-- Table Data-->
+            {% endfor %}
+        </table>
+    </main>
+    <!-- Define class to encapsulate footer content-->
+    <footer>
+        <div class="footer">
+        <!-- Runtime output -->
+        <p style="color: #FF7200">Mystify ran at: {{ utc_dt }} </p>
+        <!-- Goto index-->
+        <a href="{{ url_for('index') }}">Go to index</a>
+        <!-- Powred by us-->
+        <p>Powered by Even 8</p>
+        <!-- Copyright notice-->
+        <p>Copyright 2023 Even 8</p>
+        <!-- link to github-->
+        <a href="https://github.com/WorkAtRGU/cm2110_2022-23_coursework-even-8">Github</a>
+        </div>
+    </footer>
+</body>
+</html>

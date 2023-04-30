@@ -1,0 +1,55 @@
+body {
+  background-color: #2D2B55;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.intro, .footer {
+  color:#FAD000;
+  width: 50%;
+  margin: auto;
+}
+
+.intro h3 {
+  text-align: center;
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  border: 1px solid #ddd;
+  margin: auto;
+}
+  
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+  
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tr {
+  color: #2D2B55;
+}
+
+table {
+  box-shadow: 5px 5px 10px #1e2b38, -5px -5px 10px #434072;
+}
+
+.intro input[type=submit], .intro input[type=button]{
+  background-color: #FAD000;
+  color: #2D2B55;
+}
+
+.intro input[type=text], ::placeholder {
+  color: #2D2B55;
+  width:70%;
+}
