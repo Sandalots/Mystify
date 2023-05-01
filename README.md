@@ -1,2 +1,2 @@
 # Mystify
-Localised encryption and password manager.
+Localised encryption/seeder and password manager.
