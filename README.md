@@ -1,2 +1,2 @@
 # Mystify
-Localised encryption/seeder and password manager.
+Localised password encrypter and manager. Serves the console, desktop and web.
