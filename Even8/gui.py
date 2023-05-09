@@ -33,13 +33,9 @@ def startGUI():
     text = tk.Label(text=main.main(), bg='#2D2B55', fg='#FF7200', font='Helvetica 10 bold')
     
     # Pack each widget into the window
-    header.pack()
-    website_direction.pack()
-    input_direction.pack()
-    password_input.pack()
-    password_button.pack()
-    seed_button.pack()
-    text.pack()
+    widgets = [header, website_direction, input_direction, password_input, password_button, seed_button, text]
+    for widget in widgets:
+        widget.pack()
 
     # Run window in loop until closed
     window.mainloop()
