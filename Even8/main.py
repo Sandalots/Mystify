@@ -118,3 +118,7 @@ if __name__ == "__main__":
             # success output message
             print("This Node has successfully generated a fragment of the seed and pushed it to the broker.")
             # further instructions to user
+        
+        # check for clear argument
+        elif sys.argv[1] == "clear":
+            pass
