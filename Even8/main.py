@@ -5,6 +5,7 @@ import gui # import gui module to use the gui interface
 from web import webserver # import webserver module from web directory to use the webserver interface
 from multiprocessing import Process # import Process class from multiprocessing module to run multiple calls in parallel, e.g. make gui and webserver run in parallel
 import sys # for using args in terminal
+import os # for checking if file exists
 
 # Variable Declarations
 # Declare the nodes we are going to use
@@ -121,4 +122,12 @@ if __name__ == "__main__":
         
         # check for clear argument
         elif sys.argv[1] == "clear":
-            pass
+            # check if ../output.csv exists using os
+            if os.path.exists("output.csv"):
+                # delete the file
+                os.remove("output.csv")
+                # print success message
+                print("Successfully deleted output.csv")
+            else:
+                # print error message
+                print("The file does not exist or is yet to be created.")
