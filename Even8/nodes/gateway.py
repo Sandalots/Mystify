@@ -40,7 +40,7 @@ class Gateway(Node):
         # print seed to user
         print(seed)
         # write seed to output.csv file
-        self.write(seed) 
+        Node.write(seed) 
         
         # return seed
         return seed 
