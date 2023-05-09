@@ -1,5 +1,4 @@
 from nodes.node import Node # import Node class from node module from within the nodes directory
-from nodes.writer import * # import all functions from writer module from within the nodes directory
 import hashlib # for hashing passwords
 import datetime # for getting time for encryption
 
@@ -41,7 +40,7 @@ class Gateway(Node):
         # print seed to user
         print(seed)
         # write seed to output.csv file
-        write(seed) 
+        self.write(seed) 
         
         # return seed
         return seed 
