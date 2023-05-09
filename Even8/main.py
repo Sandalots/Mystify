@@ -1,5 +1,5 @@
 # Imports
-from nodes import writer # for writer function
+from nodes import node # for node function
 from nodes import node, gateway # import node and gateway modules from nodes directory to use their classes
 import gui # import gui module to use the gui interface 
 from web import webserver # import webserver module from web directory to use the webserver interface
@@ -53,7 +53,7 @@ def password_invokation():
             # print the encrypted password output
             print(node_gateway.encrypt_passwd(password))
             # write the encrypted password to the output file
-            writer.write_password(node_gateway.encrypt_passwd(password))
+            node.write_password(node_gateway.encrypt_passwd(password))
             
     # if the user presses ctrl+c to exit the program
     except KeyboardInterrupt:
@@ -63,7 +63,7 @@ def password_invokation():
 # for webserver requesting, a webserver optimised version of the above function
 def small_password_encrypt(recieved_input):
     # write the encrypted password to the output file
-    writer.write_password(node_gateway.encrypt_passwd(recieved_input))
+    node.write_password(node_gateway.encrypt_passwd(recieved_input))
     # return the encrypted password
     return node_gateway.encrypt_passwd(recieved_input)
     
