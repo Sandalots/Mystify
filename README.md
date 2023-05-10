@@ -1,4 +1,5 @@
 # Mystify
+Version 0.1
 ## Abstract
 Localised password encrypter and manager. Serves the console, desktop and web.
 
