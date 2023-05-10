@@ -6,4 +6,4 @@ Localised password encrypter and manager. Serves the console, desktop and web.
 Clone this repo.
 
 ## Usage
-Run main.py
+Run main.py with args gateway or node.
