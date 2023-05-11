@@ -9,3 +9,6 @@ Clone this repo.
 
 ## Usage
 Run main.py with args gateway or node.
+
+## Copyright
+GPLv3
