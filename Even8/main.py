@@ -1,4 +1,3 @@
-# Imports
 from nodes import node # for node function
 from nodes import node, gateway # import node and gateway modules from nodes directory to use their classes
 import gui # import gui module to use the gui interface 
