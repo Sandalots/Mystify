@@ -1,7 +1,6 @@
 import random # import random module
 import paho.mqtt.client as mqtt # import mqtt client from paho mqtt module to use mqtt protocol
 import csv # import csv module to write in csv file, outputs in root project output.csv 
-import time # import time module for processing time to add to seed curation
 
 # Create the Node class that describes a node 
 class Node(): 
