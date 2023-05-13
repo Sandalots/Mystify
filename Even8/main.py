@@ -1,6 +1,6 @@
 from nodes import node # for node function
 from nodes import node, gateway # import node and gateway modules from nodes directory to use their classes
-import gui # import gui module to use the gui interface 
+from interfaces import gui # import gui module from interfaces directory to use the gui interface
 from web import webserver # import webserver module from web directory to use the webserver interface
 from multiprocessing import Process # import Process class from multiprocessing module to run multiple calls in parallel, e.g. make gui and webserver run in parallel
 import sys # for using args in terminal
@@ -29,7 +29,7 @@ def testEncryption():
 # function for testing mqtt broker
 def testBroker(): 
     # import the test source file to test each node
-    import test_broker_connection
+    from testing import test_broker_connection
     # for each node in nodes
     for node in nodes:
         # test the node with the nodes client id
@@ -109,7 +109,7 @@ if __name__ == "__main__":
             # create new node object with the node number and client id passed in the command line
             parsed_node = node.Node(1, 'node1')
             # import the test source file to test each node
-            import test_broker_connection
+            from testing import test_broker_connection
             # test the node with the nodes client id
             test_broker_connection.test_a_node(parsed_node.clientID)
             # call the node mqtt function, that will generate a fragment of the seed, push and close.
