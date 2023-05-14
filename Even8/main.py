@@ -17,12 +17,10 @@ def main():
     # call node_gateway's process_next function on each declared node object 
     return node_gateway.process_next(node_gateway,node1, node2, node3)
 
-# Test encyption function
 def testEncryption():
     # print encrypted password using encrypt module on a test string
     print("Encrypted password is: " + node_gateway.encrypt_passwd("testpasswordstring"))
 
-# function for testing mqtt broker
 def testBroker(): 
     # import the test source file to test each node
     from testing import test_broker_connection
@@ -88,7 +86,7 @@ if __name__ == "__main__":
     # check if there is no command line argument
     if len(sys.argv) == 1:
          # print error message
-        print("Please enter a command line argument, either gateway or node.")
+        print("Please enter a command line argument, either gateway or node. Use clear to delete the output file.")
     
     # Now check if the argument passed is either gateway or node.
     else:
