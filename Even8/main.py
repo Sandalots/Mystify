@@ -1,10 +1,8 @@
-from nodes import node # for node function
 from nodes import node, gateway # import node and gateway modules from nodes directory to use their classes
 from interfaces import gui # import gui module from interfaces directory to use the gui interface
 from web import webserver # import webserver module from web directory to use the webserver interface
 from multiprocessing import Process # import Process class from multiprocessing module to run multiple calls in parallel, e.g. make gui and webserver run in parallel
-import sys # for using args in terminal
-import os # for checking if file exists
+import sys, os # import sys and os modules to use command line arguments and file deletion
 
 # Variable Declarations
 # Declare the nodes we are going to use
