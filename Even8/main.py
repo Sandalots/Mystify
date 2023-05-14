@@ -128,3 +128,4 @@ if __name__ == "__main__":
             else:
                 # print error message
                 print("The file does not exist or is yet to be created.")
+                sys.exit()
