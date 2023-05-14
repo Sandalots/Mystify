@@ -4,7 +4,6 @@ from web import webserver # import webserver module from web directory to use th
 from multiprocessing import Process # import Process class from multiprocessing module to run multiple calls in parallel, e.g. make gui and webserver run in parallel
 import sys, os # import sys and os modules to use command line arguments and file deletion
 
-# Variable Declarations
 # Declare the nodes we are going to use
 node_gateway = gateway.Gateway(0, "nodeGateway")
 node1 = node.Node(1, "node1") 
@@ -14,7 +13,6 @@ node3 = node.Node(3, "node3")
 # Declare list of nodes assigned above
 nodes = [node_gateway, node1, node2, node3]
 
-# main function that calls the node_gateway computation and returns the localised randomised seed
 def main():
     # call node_gateway's process_next function on each declared node object 
     return node_gateway.process_next(node_gateway,node1, node2, node3)
