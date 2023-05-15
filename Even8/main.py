@@ -4,7 +4,7 @@ from web import webserver # import webserver module from web directory to use th
 from multiprocessing import Process # import Process class from multiprocessing module to run multiple calls in parallel, e.g. make gui and webserver run in parallel
 import sys, os # import sys and os modules to use command line arguments and file deletion
 
-# Declare the nodes we are going to use
+# Declare node and gateway objects
 node_gateway = gateway.Gateway(0, "nodeGateway")
 node1 = node.Node(1, "node1") 
 node2 = node.Node(2, "node2")
