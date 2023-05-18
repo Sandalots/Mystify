@@ -6,3 +6,11 @@ if not os.path.exists("config.yaml"):
     
 else:
     print("config.yaml found")
+    
+# read config.yaml
+with open("config.yaml") as f:
+    config = f.read()
+    
+    # if config.yaml profile is default 
+    if "profile: default" in config:
+        print("profile is " + "default")
