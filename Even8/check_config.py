@@ -14,3 +14,4 @@ with open("config.yaml") as f:
     # if config.yaml profile is default 
     if "profile: default" in config:
         print("profile is " + "default")
+        os.system("python3 Even8/main.py clear")
