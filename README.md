@@ -12,4 +12,4 @@ Run main.py with args gateway or node. Proceed to follow console or GUI instruct
 Navigate to localhost:3000 for web interfacing.
 
 ## Copyright
-GPLv3
+BSD
