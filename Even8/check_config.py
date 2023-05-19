@@ -11,7 +11,9 @@ else:
 with open("config.yaml") as f:
     config = f.read()
     
+    # get profile name
+    profile = config.split("profile: ")[1].split("\n")[0]
     # if config.yaml profile is default 
     if "profile: default" in config:
-        print("profile is " + "default")
+        print("profile is " + profile)
         os.system("python3 Even8/main.py clear")
