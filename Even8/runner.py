@@ -16,5 +16,6 @@ if not os.path.exists("Even8/main.py"):
     print("Even8/main.py not found")
     quit()
     
+# run Even8/main.py    
 os.system("python3 Even8/main.py gateway")
 quit()
