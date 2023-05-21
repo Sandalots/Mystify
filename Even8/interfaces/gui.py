@@ -29,11 +29,13 @@ def startGUI():
     password_button = tk.Button(text="Encrypt", command=lambda: encrypt(password_input), bg="#FAD000", fg='#2D2B55')
     # create button to seed_button text
     seed_button = tk.Button(text="Generate Seed", command=generateSeed, bg="#FAD000", fg='#2D2B55')
+    # add quit button
+    quit_button = tk.Button(text="Quit", command=window.quit, bg="#FAD000", fg='#2D2B55')
     # create label with text from main.py
     text = tk.Label(text=main.main(), bg='#2D2B55', fg='#FF7200', font='Helvetica 10 bold')
     
     # create list of widgets
-    widgets = [header, website_direction, input_direction, password_input, password_button, seed_button, text]
+    widgets = [header, website_direction, input_direction, password_input, password_button, seed_button, quit_button, text]
     for widget in widgets:
         # pack widget into window
         widget.pack()
