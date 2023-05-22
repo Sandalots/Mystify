@@ -6,9 +6,8 @@ import sys, os # import sys and os modules to use command line arguments and fil
 
 # Declare node and gateway objects
 node_gateway = gateway.Gateway(0, "nodeGateway")
-node1 = node.Node(1, "node1") 
-node2 = node.Node(2, "node2")
-node3 = node.Node(3, "node3")
+for i in range(1,4):
+    globals()['node{}'.format(i)] = node.Node(i, 'node{}'.format(i))
 
 # Declare list of nodes assigned above
 nodes = [node_gateway, node1, node2, node3]
