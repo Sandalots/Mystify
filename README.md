@@ -1,5 +1,4 @@
 # Mystify
-Version 0.3 - May 2023. Needs major reworking.
 
 ## Abstract
 Localised password encrypter and manager. Serves the console, desktop and web.
