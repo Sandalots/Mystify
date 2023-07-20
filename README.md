@@ -9,6 +9,3 @@ Clone this repo. Navigate to the Even8 cloned dir. Permutate main.py with python
 
 ## Usage
 Run main.py with args gateway or node. Proceed to follow console or GUI instructions. Navigate to localhost:3000 for web interfacing. Customise using config.yaml.
-
-## Licence
-BSD.
