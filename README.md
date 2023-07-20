@@ -8,8 +8,7 @@ Localised password encrypter and manager. Serves the console, desktop and web.
 Clone this repo. Navigate to the Even8 cloned dir. Permutate main.py with python main.py [ARGS] (Node or Gateway).
 
 ## Usage
-Run main.py with args gateway or node. Proceed to follow console or GUI instructions.
-Navigate to localhost:3000 for web interfacing.
+Run main.py with args gateway or node. Proceed to follow console or GUI instructions. Navigate to localhost:3000 for web interfacing. Customise using config.yaml.
 
 ## Licence
 BSD.
