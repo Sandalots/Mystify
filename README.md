@@ -1,4 +1,5 @@
 # Mystify
+Local password encryption and manager.
 
 ## Abstract
 Localised password encrypter and manager. Serves the console, desktop and web.
