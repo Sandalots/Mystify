@@ -10,5 +10,4 @@ Further ARG clear is included for obvious reasons.
 ## Usage
 Run main.py with args gateway or node. Proceed to follow console or GUI instructions. Navigate to localhost:3000 for web interfacing. Customise using config.yaml.
 
-## License 
-GPL3.
+# State 
