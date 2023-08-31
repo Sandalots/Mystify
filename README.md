@@ -11,4 +11,4 @@ Further ARG clear is included for obvious reasons.
 Run main.py with args gateway or node. Proceed to follow console or GUI instructions. Navigate to localhost:3000 for web interfacing. Customise using config.yaml.
 
 # State 
-The current state of Mystify is quite dodgy.
+The current state of Mystify is quite dodgy. With it being strung together by weak strings.
