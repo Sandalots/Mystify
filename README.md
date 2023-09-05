@@ -1,5 +1,5 @@
 # Mystify
-On-site, localised password keeper and password encryption without extruding data elsewhere.
+On-site, localised password keeper and password encryption without extruding data elsewhere without thirx party interference. 
 
 ## Abstract
 Localised password encrypter and manager. Serves the console, desktop and web.
