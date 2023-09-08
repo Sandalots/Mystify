@@ -1,4 +1,4 @@
-# Mystify
+# Mystify Premus
 On-site, localised password keeper and password encryption without extruding data elsewhere without thirx party interference. 
 
 ## Abstract
