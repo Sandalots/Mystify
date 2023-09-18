@@ -13,3 +13,5 @@ Run main.py with args gateway or node. Proceed to follow console or GUI instruct
 
 ## State 
 The current state of Mystify is quite dodgy. With it being strung together by weak strings of interal abstractions that need rewritten and cut down.
+
+## Lic
