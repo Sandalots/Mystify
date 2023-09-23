@@ -2,7 +2,7 @@
 On-site, localised password keeper and password encryption without extruding data elsewhere without thirx party interference. 
 
 ## Abstract
-Localised password encrypter and manager. Serves the console, desktop and web.
+Localised password encrypter and manager. Serves the console, desktop and web all asynchronously.
 
 ## Installation
 Clone this repo. Navigate to the Even8 cloned dir. Permutate main.py with python main.py [ARGS] (Node or Gateway).
