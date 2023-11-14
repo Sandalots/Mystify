@@ -1,4 +1,4 @@
-# Mystify Original
+# Mystify
 On-site, localised password keeper and password encryption without extruding data elsewhere without third party interference. 
 
 ## Abstract
