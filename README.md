@@ -12,4 +12,4 @@ Further, an argument clear is included to clear the dataset.
 Run ```main.py``` with args gateway or node. Proceed to follow console or GUI instructions. Navigate to ```localhost:3000``` for web interfacing. Customise using config.yaml.
 
 ## State of Mystify
-The current state of Mystify is quite incomplete. With it being strung together by weak strings of interal abstractions that need rewritten and cut down. And better implemented aswell as proper MQTT communication.
+The current state of Mystify is quite incomplete. With it being strung together by weak strings of interal abstractions that need rewritten and cut down. And better implemented aswell as proper MQTT communication. 
