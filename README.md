@@ -5,7 +5,7 @@ Bring your own devices, localised password keeper and password encryption withou
 Localised password encrypter and manager. Serves the console, desktop and web all asynchronously and interconnectly.
 
 ## Installation
-Clone this repo. Navigate to the Even8 cloned dir. Permutate main.py with python main.py [ARGS] (Node or Gateway).
+Clone this repo. Navigate to the Even8 cloned dir. Permutate main.py with python main.py [ARGS](Node or Gateway).
 Further, an argument clear is included to clear the dataset.
 
 ## Usage
