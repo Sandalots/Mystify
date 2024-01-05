@@ -9,4 +9,4 @@ Clone this repo. Navigate to the Even8 cloned dir. Permutate main.py with python
 Further, an argument clear is included to clear the dataset.
 
 ## Usage
-Run ```main.py``` with args gateway or node. Proceed to follow console or GUI instructions. Navigate to ```localhost:3000``` for web interfacing. Customise using config.yaml.
+Run ```main.py``` with args gateway or node. Proceed to follow console or GUI instructions. Navigate to ```localhost:3000``` for web interfacing. Customise using config.yaml.  
