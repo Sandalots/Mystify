@@ -1,5 +1,5 @@
 # Mystify
-Bring your own devices, localised password keeper and password encryption without extruding data elsewhere without third party interference. 
+Bring your own local devices, localised password keeper and password encryption without extruding data elsewhere without third party interference. 
 
 ## Abstract
 Localised password encrypter and manager. Serves the console, desktop and web all asynchronously and interconnectly.
