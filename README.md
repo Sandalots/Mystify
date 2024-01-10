@@ -1,5 +1,4 @@
 # Mystify
-Levelling up local security. 
 Bring your own devices, localised password keeper and password encryption without extruding data elsewhere without third party interference. 
 
 ## Abstract
